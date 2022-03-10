@@ -1,6 +1,6 @@
 **主定理**：令$a \ge 1$和$b > 1$是常数，$f(n)$是一个函数，$T(n)$是定义在**非负整数**上的递归式：
 \begin{align\*}
-    T(n) = a \cdot T(n/b) + f(n)
+    T(n) = a \cdot \left( \frac{n}{b} \right) + f(n)
 \end{align\*}
 其中我们将$n/b$解释为$\lfloor n/b \rfloor$或$\lceil n/b \rceil$，那么$T(n)$有如下渐进界：
 1. 若对某个常数$\varepsilon > 0$有$f(n) = O(n^{\log_b a - \varepsilon})$，则$T(n) = \Theta (n^{\log_b a})$。
