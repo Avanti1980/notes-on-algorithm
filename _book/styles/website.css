@@ -79,11 +79,11 @@
 .book-summary {
     background-color: var(--base3);
     font-family: "Operator Mono Light", "Operator", "LXGW WenKai Light", "LXGW" !important;
-    width: 150px !important;
+    width: 150px;
 }
 
 .book-body {
-    left: 150px !important;
+    left: 150px;
 }
 
 .book .book-body .page-wrapper .page-inner {
